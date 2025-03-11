@@ -9,11 +9,11 @@ A simple and interactive quiz application built using **Vite** and **React.js**.
 - **User Feedback:** Provides immediate feedback to users after submitting answers.
 - **Responsive Design:** Fully responsive and mobile-friendly design.
 
-## Tech Stack:
+**Tech Stack:**
 - **Frontend:** React.js
 - **Development Environment:** Vite
-- **API:** Fetches quiz questions from an external API.
-- **Styling:** Styled with basic CSS.
+- **API:** Fetches quiz questions from a **fake API** using `json-server`
+- **Styling:** Styled with basic CSS
 
 ---
 ## How to Run:
