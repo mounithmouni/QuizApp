@@ -1,4 +1,4 @@
-import reactImg from "./assets/react.svg";
+import reactImg from "../assets/react.svg";
 function Header() {
   return (
     <header className="app-header">
