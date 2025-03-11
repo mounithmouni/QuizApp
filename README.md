@@ -1,12 +1,32 @@
-# React + Vite
+# QuizApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive quiz application built using **Vite** and **React.js**. The app dynamically fetches quiz questions from an external API and displays them to users. Users can answer questions, receive feedback, and track their progress.
 
-Currently, two official plugins are available:
+## Features:
+- **Dynamic Question Fetching:** Fetches quiz questions from an external API in real-time.
+- **React.js:** Utilizes React.js for efficient, component-based UI updates.
+- **Vite for Fast Development:** Uses Vite as the build tool for a fast and optimized development environment.
+- **User Feedback:** Provides immediate feedback to users after submitting answers.
+- **Responsive Design:** Fully responsive and mobile-friendly design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack:
+- **Frontend:** React.js
+- **Development Environment:** Vite
+- **API:** Fetches quiz questions from an external API.
+- **Styling:** Styled with basic CSS.
 
-## Expanding the ESLint configuration
+## How to Run:
+1. Clone the repository.
+2. Install dependencies:  
+   ```bash
+   npm install
+   ```
+3. Start the development server:  
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API:
+The app makes API calls to dynamically fetch quiz questions. You can integrate this API or adjust it according to your needs.
+
+---
